@@ -12,5 +12,9 @@
         "18":"/imgs/icon16.png",
         "46":"/imgs/icon48.png",
         "128":"/imgs/icon128.png"
-    }
+    },
+    "permissions":[
+    "geolocation"
+]
+
 }
