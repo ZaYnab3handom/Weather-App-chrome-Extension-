@@ -21,7 +21,7 @@
      color:rgb(170, 33, 15);
         /* color:whitesmoke; */
   }
-  .pagebox{
+  #pagebox{
     display: flex;
     align-items: center;
     justify-content: space-around;

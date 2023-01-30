@@ -83,6 +83,7 @@ function setData(reData){
 
   document.getElementById('footer').style.visibility ="visible"
   document.getElementById("usererro").style.visibility="hidden"
+  document.getElementById('pagebox').style.visibility ="visible"
 
 }
 }
