@@ -14,9 +14,10 @@
     <p id="failedlocation"></p>
     <div class="pagebox">
 
-        <div id="weather">
+        <div id="weather" style="width: 200px; height: 240px; ">
+            <img id="statImg" src="" alt="">
+            <p id="state" class="wea" style="margin-top: -20px"></p> <br>
             <p id="temp"></p><br>
-            <p id="state" class="wea"></p> <br>
             <span id="hum" class="wea"  style="visibility: hidden;">Humidity</span>
             <p id="humidity" class="wea"></p> <br>
             <span id="win" class="wea" style="visibility: hidden;">Wind Speed</span>
@@ -24,13 +25,13 @@
             
         </div>
 
-        <div id="userinfo">
+        <div id="userinfo" style="width: 220px; height: 80px; ">
             <p class="wea" id="city"></p> 
             <p class="wea" id="time"></p> 
             <p class="wea" id="date"></p> <br>
         </div>
     </div>
-<footer id="footer" style="visibility: hidden;"> 
+<footer id="footer" style="visibility: hidden;" > 
     <span class="wea"> Get Weather To Another City</span>
     <input type="text" id="usrcity" placeholder="Enter Name Of City">
     <span id="usererro" class="wea" style="visibility: hidden; padding-top:5px;font-size: 13px ; color: rgb(173, 8, 8);"> 
