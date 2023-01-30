@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
 </head>
+
 <body>
-    <p>Weather App</p>
+    <h2 id="good"></h2>
     <p id="failedlocation"></p>
-    
+    <div class="pagebox">
+
+        <div id="weather">
+            <p id="temp"></p><br>
+            <p id="state" class="wea"></p> <br>
+            <span id="hum" class="wea"  style="visibility: hidden;">Humidity</span>
+            <p id="humidity" class="wea"></p> <br>
+            <span id="win" class="wea" style="visibility: hidden;">Wind Speed</span>
+            <p id="wind" class="wea"></p> <br>
+            
+        </div>
+
+        <div id="userinfo">
+            <p class="wea" id="city"></p> 
+            <p class="wea" id="time"></p> 
+            <p class="wea" id="date"></p> <br>
+        </div>
+    </div>
+<footer id="footer" style="visibility: hidden;"> 
+    <span class="wea"> Get Weather To Another City</span>
+    <input type="text" id="usrcity" placeholder="Enter Name Of City">
+    <span id="usererro" class="wea" style="visibility: hidden; padding-top:5px;font-size: 13px ; color: rgb(173, 8, 8);"> 
+        <span> Wrong City Name </span> <br>
+       <span> Please Try Again </span>
+    </span>
+
+</footer>
 </body>
 <script src="index.js"></script>
+
 </html>
